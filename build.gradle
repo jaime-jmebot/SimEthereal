@@ -35,3 +35,5 @@ compileJava.doLast {
     new File(destinationDir, 'sim-ethereal.build.date').text = buildDate
 }
 
+
+dependencies { testImplementation 'junit:junit:4.13.2' }
